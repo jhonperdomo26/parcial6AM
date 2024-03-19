@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="/parcial/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/parcial/css/log-in.css">
+    <script src="/parcial/js/log-in.js"></script>
+</head>
+<body>
+    <header>
+        <ul class="nav bg-light">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/parcial/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/parcial/html/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/parcial/html/sobre-nosotros.html">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Log in</a>
+            </li>
+          </ul>
+    </header>
+    <body>
+      <div class="caja-padre">
+        <div class="caja-padre1">
+            <div class="caja1">
+              <label>Por favor ingrese sus credenciales para acceder al sistema</label>
+            </div>
+            <div class="caja2">
+              <div class="caja21">
+
+              <label>Usuario</label>
+              <input type="text" maxlength="20" id="usuario">
+
+            </div>
+            <div class="caja22">
+
+                <label>Clave</label>
+            <input type="password" id="clave">
+
+            </div>
+            </div>
+            <div class="caja3">
+              <button class="boton" onclick="datos()" id="datos">
+                Log in
+              </button>
+              <button class="boton">
+                <a href="/julio/html/sign-up.html" class="nodeco">Sign up</a>
+              </button>
+              <button class="boton">
+                <a href="/parcial/index.html" class="nodeco">Cancelar</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+</body>
+</html>
